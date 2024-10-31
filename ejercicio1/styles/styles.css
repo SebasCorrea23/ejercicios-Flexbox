@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding:  20px; 
+}
+
+nav {
+    display: flex; 
+    gap: 100px;
+}
+
+button {
+    width: 45px;
+    height: 45px;
+    background-color: gray;
+    color: white;
+    margin-left: 10px;
+    border: none; 
+    gap: 15px;
+
+}
+
+.a1{
+    text-decoration: none;
+    color: gray;
+}
+
+.a2{
+    text-decoration: none;
+    color: gray;
+}
+
+.a3{
+    text-decoration: none;
+    color: gray;
+}
+
+.a4{
+    text-decoration: none;
+    color: gray;
+}
+

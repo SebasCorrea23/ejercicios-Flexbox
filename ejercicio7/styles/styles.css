@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+}
+
+.pag{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #ff6f61;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+header h2{
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: normal;
+}
+
+nav{
+    background-color: #419156;
+    display: flex;
+    align-items: center;
+}
+
+.minis{
+    width: 50vh;
+    justify-content: space-between;
+}
+
+.lenguaje{
+    justify-content: flex-end;
+}
